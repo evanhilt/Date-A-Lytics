@@ -183,6 +183,7 @@ int favorite_place(date** all_dates, int date_count) {
             }
         }
     }
+    free(places);
     return best_index;
 }
 
@@ -209,6 +210,7 @@ int favorite_person(date** all_dates, int date_count) {
             }
         }
     }
+    free(names);
     return best_index;
 }
 
@@ -235,6 +237,7 @@ int favorite_year(date** all_dates, int date_count) {
             }
         }
     }
+    free(years);
     return best;
 }
 
@@ -261,6 +264,7 @@ int favorite_month(date** all_dates, int date_count) {
             }
         }
     }
+    free(months);
     return best;
 }
 
@@ -287,6 +291,7 @@ int favorite_day(date** all_dates, int date_count) {
             }
         }
     }
+    free(days);
     return best;
 }
 
