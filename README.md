@@ -1,2 +1,2 @@
 # Date-A-Lytics
-Command Line Dating History Manager
+Command Line Personal Dating History Manager
