@@ -205,6 +205,7 @@ int make_date(date* date) {
     if(check_input(getchar(), name, place, notes) == 1) {
         return 1;
     }
+    printf("1(January) - 12(December)\n");
     printf("Month (number): ");
     scanf("%d", &time.month);
     if(check_input(getchar(), name, place, notes) == 1) {
